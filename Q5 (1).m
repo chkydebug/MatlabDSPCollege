@@ -1,0 +1,10 @@
+﻿clc;
+clear all;
+close all;
+z=30;
+x=0:1:49;
+y=square(x,z);
+stem (x,y);
+xlabel ("time");
+ylabel ("amplitude");
+title ("bipolar square wave");
